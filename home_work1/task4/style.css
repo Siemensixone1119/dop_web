@@ -1,0 +1,22 @@
+button{
+  display: block;
+  margin: 50px auto;
+  background-color: rgb(185, 209, 250);
+  border-radius: 5px;
+}
+
+button:active {
+  animation: pulse 0.1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

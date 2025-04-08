@@ -1,0 +1,12 @@
+ul{
+  list-style: none;
+}
+
+li{
+  display: block;
+}
+
+li:not(:last-child) {
+  background-color: #9be1ff;
+  transition: background-color 0.3s ease;
+}

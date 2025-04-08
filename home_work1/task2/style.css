@@ -1,0 +1,13 @@
+p::before {
+  display: block;
+  content: "★";
+  color: rgb(44, 162, 44);
+  margin-right: 5px;
+  animation: spin 4s infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
