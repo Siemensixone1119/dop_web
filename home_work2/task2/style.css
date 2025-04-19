@@ -1,0 +1,15 @@
+ul{
+  list-style: none;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cards__item{
+  border: 1px solid black;
+  background-color: bisque;
+  max-width: 300px;
+  border-radius: 5px;
+}

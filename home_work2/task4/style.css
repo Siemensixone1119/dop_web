@@ -1,0 +1,21 @@
+body{
+  padding: 0 30px;
+}
+
+ul{
+  list-style: none;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 0;
+}
+
+.cards__item{
+  border: 1px solid black;
+  background-color: bisque;
+  max-width: 300px;
+  border-radius: 5px;
+}
