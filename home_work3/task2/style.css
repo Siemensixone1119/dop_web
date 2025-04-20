@@ -1,0 +1,29 @@
+body{
+  padding: 0 30px;
+}
+
+ul{
+  list-style: none;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cards__item{
+  border: 1px solid black;
+  background-color: bisque;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+  .cards{
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
